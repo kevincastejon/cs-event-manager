@@ -14,6 +14,7 @@
 ## Documentation
 (https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html)[https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html]
 
+## Usages
 Simple usage, without any extends
 
 ```
