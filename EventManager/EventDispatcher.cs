@@ -3,40 +3,40 @@ using System.Collections.Generic;
 namespace kevincastejon
 {
     /// <summary>
-    /// 
+    ///
     /// EventDispatcher package encapsulates the delegate system into an event flow similar to the Javascript event system. These are main advantages:
-    /// 
+    ///
     /// - No delegate to declare
     /// - Callback any method that accept an Event (or custom inherited class) object as parameter.
     /// - The events can be dispatched without throwing exception even if no listeners are registered
     /// - Extends easily base class Event to add properties suiting your needs
-    /// 
+    ///
     /// Simple usage, without any extends
-    /// 
+    ///
     /// <code>
-    /// 
+    ///
     ///         //Instantiate an EventDispatcher and add a listener
     ///         EventDispatcher ed = new EventDispatcher();
     ///         ed.AddEventListener<Event>("someEventName", MyCallback);
-    /// 
+    ///
     ///         //Then somewhere in your code, call the DispatchEvent method of your EventDispatcher instance
     ///         ed.DispatchEvent(new Event("someEventName"));
-    /// 
+    ///
     ///         private void MyCallback(Event e){
     ///         Console.Writeline(e.Name+" event has been dispatched");
     ///         }
-    /// 
+    ///
     /// </code>
-    /// 
+    ///
     /// Advanced usage, with extending of EventDispatcher and Event
-    /// 
+    ///
     /// <code>
-    /// 
+    ///
     ///         public class RiceBag : EventDispatcher
     ///         {
     ///             private int _maxRiceGrain = 100;
     ///             private int _currentRiceGrainNumber = 0;
-    ///     
+    ///
     ///             public void AddRice(int numberOfRiceGrain)
     ///             {
     ///                 _currentRiceGrainNumber += numberOfRiceGrain;
@@ -57,7 +57,7 @@ namespace kevincastejon
     ///             public enum Names { ELEMENT_ADDED, ELEMENT_REMOVED, FULL, EMPTY };
     ///             private int _numberOfElements;
     ///             private int _maxElements;
-    ///     
+    ///
     ///             public ContainerEvent(object name, int numberOfElements, int maxElements) : base(name)
     ///             {
     ///                 _numberOfElements = numberOfElements;
@@ -77,7 +77,7 @@ namespace kevincastejon
     ///                 bag.AddEventListener<ContainerEvent>(ContainerEvent.Names.ELEMENT_REMOVED, MyCallback);
     ///                 bag.AddEventListener<ContainerEvent>(ContainerEvent.Names.EMPTY, MyCallback);
     ///                 bag.AddEventListener<ContainerEvent>(ContainerEvent.Names.FULL, MyCallback);
-    ///     
+    ///
     ///                 //Then anywhere in your code, add and remove some rice off the bag
     ///                 bag.AddRice(26);
     ///                 bag.AddRice(48);
@@ -91,9 +91,9 @@ namespace kevincastejon
     ///                 Console.WriteLine(e.Name + " - " + e.NumberOfElements + " rice grains on " + e.MaxElements + ". The bag is full at " + e.FillingRatio);
     ///             }
     ///         }
-    /// 
+    ///
     /// </code>
-    /// 
+    ///
     /// </summary>
     public class EventDispatcher
     {
