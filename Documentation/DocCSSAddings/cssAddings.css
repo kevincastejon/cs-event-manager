@@ -1,0 +1,11 @@
+.memdoc p:not(:first-of-type){
+	background: url("../DocCSSAddings/hint.png") no-repeat center left;
+	padding-left: 30px;
+	border:1px solid rgba(135, 135, 135, .2);
+}
+.memdoc p code{
+	background: url("../DocCSSAddings/warning.png") no-repeat center left;
+	margin-left: -31px;
+	padding-left:26px;
+	border:1px solid rgba(255, 0, 0, .2);
+}

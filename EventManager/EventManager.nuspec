@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>EventManager</id>
+    <version>1.0.0</version>
+    <title>EventManager</title>
+    <authors>pitik</authors>
+    <owners>pitik</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <description>EventManager package encapsulates the delegate system into an event flow similar to the Javascript event system.</description>
+    <copyright>Copyright ©  2020</copyright>
+  </metadata>
+</package>
