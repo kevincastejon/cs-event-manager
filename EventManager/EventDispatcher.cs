@@ -65,7 +65,7 @@ namespace kevincastejon
     ///             }
     ///             public int NumberOfElements { get { return (_numberOfElements); } }
     ///             public int MaxElements { get { return (_maxElements); } }
-    ///             public float FillingRatio { get { return (_numberOfElements / _maxElements); } }
+    ///             public float FillingRatio { get { return ((float)_numberOfElements / _maxElements); } }
     ///         }
     ///         public class TesterClass
     ///         {
@@ -88,7 +88,7 @@ namespace kevincastejon
     ///             private void MyCallback(ContainerEvent e)
     ///             {
     ///                 //Monitors the events dispatched by the bag
-    ///                 Console.WriteLine(e.Name + " - " + e.NumberOfElements + " rice grains on " + e.MaxElements + ". The bag is full at " + e.FillingRatio);
+    ///                 Console.WriteLine(e.Name + " - " + e.NumberOfElements + " rice grains on " + e.MaxElements + ". The bag is full at " + e.FillingRatio + "%");
     ///             }
     ///         }
     ///

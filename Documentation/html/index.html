@@ -124,7 +124,7 @@ $(function() {
 <div class="line">    }</div>
 <div class="line">    public int NumberOfElements { get { return (_numberOfElements); } }</div>
 <div class="line">    public int MaxElements { get { return (_maxElements); } }</div>
-<div class="line">    public float FillingRatio { get { return (_numberOfElements / _maxElements); } }</div>
+<div class="line">    public float FillingRatio { get { return ((float)_numberOfElements / _maxElements); } }</div>
 <div class="line">}</div>
 <div class="line">public class TesterClass</div>
 <div class="line">{</div>
@@ -147,7 +147,7 @@ $(function() {
 <div class="line">    private void MyCallback(ContainerEvent e)</div>
 <div class="line">    {</div>
 <div class="line">        //Monitors the events dispatched by the bag</div>
-<div class="line">        Console.WriteLine(e.Name + &quot; - &quot; + e.NumberOfElements + &quot; rice grains on &quot; + e.MaxElements + &quot;. The bag is full at &quot; + e.FillingRatio);</div>
+<div class="line">        Console.WriteLine(e.Name + &quot; - &quot; + e.NumberOfElements + &quot; rice grains on &quot; + e.MaxElements + &quot;. The bag is full at &quot; + e.FillingRatio + &quot;%&quot;);</div>
 <div class="line">    }</div>
 <div class="line">}</div>
 </div><!-- fragment --> </div></div><!-- PageDoc -->
