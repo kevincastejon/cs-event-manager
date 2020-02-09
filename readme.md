@@ -9,10 +9,10 @@
 - Extends easily base class Event to add properties suiting your needs
 
 ## Sources
-(https://github.com/kevincastejon/cs-event-manager)[https://github.com/kevincastejon/cs-event-manager]
+[https://github.com/kevincastejon/cs-event-manager](https://github.com/kevincastejon/cs-event-manager)
 
 ## Documentation
-(https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html)[https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html]
+[https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html](https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html)
 
 ## Usages
 Simple usage, without any extends
