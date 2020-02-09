@@ -8,6 +8,12 @@
 - The events can be dispatched without throwing exception even if no listeners are registered
 - Extends easily base class Event to add properties suiting your needs
 
+## Sources
+(https://github.com/kevincastejon/cs-event-manager)[https://github.com/kevincastejon/cs-event-manager]
+
+## Documentation
+(https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html)[https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html]
+
 Simple usage, without any extends
 
 ```
