@@ -129,7 +129,7 @@ namespace kevincastejon
             if (listenersCallBack.Count == 1) { dispatchers.Add(this); }
         }
         /// <summary>
-        /// Alias convenience shortcut for AddEventListener<T> method
+        /// Alias convenience shortcut for RemoveEventListener<T> method
         /// </summary>
         /// <typeparam name="T">The type of the event you want to remove the listener, must be Event or inherited</typeparam>
         /// <param name="eventName">A string that represents the name of the event you want to remove the listener </param>
@@ -137,7 +137,7 @@ namespace kevincastejon
         public void Off<T>(object eventName, Action<T> callBack)
             where T : Event
         {
-            this.AddEventListener<T>(eventName, callBack);
+            this.RemoveEventListener<T>(eventName, callBack);
         }
         /// <summary>
         /// Removes a previously added event listener on this instance, stop the calling of the callback method when the event is dispatched

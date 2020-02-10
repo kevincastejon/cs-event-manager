@@ -4,11 +4,16 @@
     <id>EventManager</id>
     <version>1.0.0</version>
     <title>EventManager</title>
-    <authors>pitik</authors>
-    <owners>pitik</owners>
+    <authors>kevincastejon</authors>
+    <owners>kevincastejon</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
     <description>EventManager package encapsulates the delegate system into an event flow similar to the Javascript event system.</description>
     <copyright>Copyright ©  2020</copyright>
+    <frameworkReferences>
+      <group targetFramework=".NETFramework4.6.1">
+        <frameworkReference name="net461" />
+      </group>
+    </frameworkReferences>
   </metadata>
 </package>
