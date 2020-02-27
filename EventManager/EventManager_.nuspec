@@ -2,12 +2,13 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>EventManager</id>
-    <version>1.0.0</version>
+    <version>1.0.6</version>
     <title>EventManager</title>
     <authors>kevincastejon</authors>
     <owners>kevincastejon</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
     <description>EventManager package encapsulates the delegate system into an event flow similar to the Javascript event system.</description>
     <copyright>Copyright ©  2020</copyright>
     <frameworkReferences>

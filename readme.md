@@ -11,6 +11,9 @@
 ## Sources
 [https://github.com/kevincastejon/cs-event-manager](https://github.com/kevincastejon/cs-event-manager)
 
+## Nuget package
+[https://www.nuget.org/packages/EventManager/](https://www.nuget.org/packages/EventManager/)
+
 ## Documentation
 [https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html](https://github.com/kevincastejon/cs-event-manager/tree/master/Documentation/html)
 
